@@ -48,7 +48,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"Zq9x2z0fHyOtF8lL","label":"reddit","bookmarks":[{"id":"PbG6HuWNdgWZGLDg","label":"reddit","url":"https://www.reddit.com/r/unixporn/"},{"id":"yBbWF2lal847OOF0","label":"discord","url":"discord.com"},{"id":"GWjESRx9ioOFEePy","label":"youtube","url":"youtube.com"}]},{"id":"eL7wN11t9ZYv22ak","label":"work","bookmarks":[{"id":"w91ZmkVbaz5lzThK","label":"github","url":"github.com"},{"id":"qaIq0mwx1kQ8kvxn","label":"freecodecamp","url":"https://www.freecodecamp.org/"}]},{"id":"XT3W817p2B6jrt4z","label":"games","bookmarks":[{"id":"H7e1VcoVFwbv2FCg","label":"chess","url":"chess.com"},{"id":"ZU4eU1ZW39vrE7D2","label":"monkeytype","url":"monkeytype.com"},{"id":"HCsadFV7GVfs3ean","label":"tetris","url":"tetr.io"}]}]
+const bookmarks = [{"id":"Zq9x2z0fHyOtF8lL","label":"entertain","bookmarks":[{"id":"PbG6HuWNdgWZGLDg","label":"reddit","url":"https://www.reddit.com/r/unixporn/"},{"id":"yBbWF2lal847OOF0","label":"discord","url":"discord.com"},{"id":"GWjESRx9ioOFEePy","label":"youtube","url":"youtube.com"}]},{"id":"eL7wN11t9ZYv22ak","label":"work","bookmarks":[{"id":"w91ZmkVbaz5lzThK","label":"github","url":"github.com"},{"id":"qaIq0mwx1kQ8kvxn","label":"freecodecamp","url":"https://www.freecodecamp.org/"}]},{"id":"XT3W817p2B6jrt4z","label":"games","bookmarks":[{"id":"H7e1VcoVFwbv2FCg","label":"chess","url":"chess.com"},{"id":"ZU4eU1ZW39vrE7D2","label":"monkeytype","url":"monkeytype.com"},{"id":"HCsadFV7GVfs3ean","label":"tetris","url":"tetr.io"}]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
